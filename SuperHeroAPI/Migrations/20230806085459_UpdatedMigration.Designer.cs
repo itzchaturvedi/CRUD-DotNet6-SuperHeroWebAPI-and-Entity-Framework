@@ -11,8 +11,8 @@ using SuperHeroAPI.Controllers.Data;
 namespace SuperHeroAPI.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20230804132122_CreateInitial")]
-    partial class CreateInitial
+    [Migration("20230806085459_UpdatedMigration")]
+    partial class UpdatedMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
